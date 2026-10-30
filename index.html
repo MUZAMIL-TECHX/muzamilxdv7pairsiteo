@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#090b14">
+  <meta name="description" content="Muzamil-XD V7 WhatsApp pairing dashboard">
+  <title>Muzamil-XD V7 — Pair</title>
+  <link rel="icon" href="https://i.ibb.co/zhBH3mzR/file-000000002ae08211834774ce8bc71642.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@600;700;800;900&family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+  <div class="ticker" aria-label="Service notice">
+    <div class="ticker-track" id="tickerTrack">
+      <span>⚠️ This WhatsApp Bot Is For All The Number Of The World Except “+972” &amp; “+91” &nbsp;•&nbsp;</span>
+    </div>
+  </div>
+
+  <div class="orb orb1" aria-hidden="true"></div>
+  <div class="orb orb2" aria-hidden="true"></div>
+  <div class="grid-bg" aria-hidden="true"></div>
+
+  <main class="container">
+    <div class="brand-lockup">
+      <div class="logo-ring"><div class="logo-wrap"><img src="https://i.ibb.co/zhBH3mzR/file-000000002ae08211834774ce8bc71642.png" alt="Muzamil-XD logo"></div></div>
+      <div class="eyebrow"><span></span> VIP PAIRING PANEL <span></span></div>
+      <h1 id="rotTitle" class="rot-title">Muzamil-XD V7</h1>
+      <div class="title-line"></div>
+      <p class="desc">A Multidevice WhatsApp Bot<br>Developed By <strong id="descWord" class="hl">TeamRedXhackers</strong></p>
+    </div>
+
+    <section class="card" aria-labelledby="pairingHeading">
+      <div class="card-header">
+        <div><p class="card-kicker">SECURE CONNECTION</p><h2 id="pairingHeading">Get Pairing Code</h2></div>
+        <span class="live-badge"><i></i> LIVE</span>
+      </div>
+
+      <label class="lbl" for="serverSelect">⚡ SELECT SERVER</label>
+      <select id="serverSelect" aria-label="Select server"><option value="">Loading servers…</option></select>
+      <div id="serverCount" class="server-count" aria-live="polite"></div>
+
+      <label class="lbl" for="numberInput">📱 WHATSAPP NUMBER <small>WITH COUNTRY CODE</small></label>
+      <div class="input-wrap"><span class="input-icon" aria-hidden="true">🌍</span><input type="tel" id="numberInput" placeholder="92XXXXXXXXXX" maxlength="15" inputmode="numeric" autocomplete="tel" aria-describedby="notification"></div>
+
+      <div id="notification" class="notification hidden" role="alert" aria-live="assertive"><span class="notification-icon">!</span><span id="notificationText">Not Avalable For Your Contry</span><button id="notificationClose" type="button" aria-label="Close notification">×</button></div>
+      <button id="pairBtn" class="btn-main" type="button"><span>GET CODE</span><b>↗</b></button>
+
+      <div id="resultBox" class="result-box hidden" aria-live="polite">
+        <div class="code-label">🔑 YOUR PAIRING CODE</div><div id="pairCode" class="code-text"></div>
+        <button id="copyBtn" class="btn-copy" type="button">📋 COPY CODE</button><div id="pairStatus" class="pair-status"></div>
+      </div>
+    </section>
+
+    <div class="btn-row"><a class="btn-side contact" href="https://wa.me/923130122643?text=Hi%20Muzamil%20Kese%20Ho" target="_blank" rel="noopener">💬 CONTACT</a><a class="btn-side channel" href="https://whatsapp.com/channel/0029VbCkm3rAe5VzCYLtNb2u" target="_blank" rel="noopener">📢 JOIN CHANNEL</a></div>
+    <p class="static-note">Static mode · Data loads from <code>data/servers.json</code> · Pair history stays in this browser</p>
+    <div class="footer">© TeamRedXhackers — Muzamil-XD V7</div>
+  </main>
+  <script src="assets/app.js" defer></script>
+</body>
+</html>
