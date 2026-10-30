@@ -1,0 +1,16 @@
+{
+    "6ae41d039b2ed": {
+        "name": "Server 1",
+        "api": "muzamil-xdv7-production.up.railway.app\/code?number=",
+        "limit": 50,
+        "count": 0,
+        "active": true
+    },
+    "6ae41d191b8f8": {
+        "name": "Server 2",
+        "api": "muzamil-xdv71-ultra-production.up.railway.app\/code?number=",
+        "limit": 50,
+        "count": 0,
+        "active": true
+    }
+}
